@@ -1,118 +1,59 @@
-\# CodeAlpha Web Scraping and Data Analysis Project
+# CodeAlpha Task 2 – Exploratory Data Analysis (EDA)
 
+## 📌 Project Overview
 
+This project performs Exploratory Data Analysis (EDA) on a books dataset collected through web scraping.
 
-\## Project Overview
+The analysis focuses on understanding the structure of the dataset, analyzing book prices and ratings, identifying patterns, and discovering useful insights.
 
-This project demonstrates web scraping, data cleaning, data analysis, and data visualization using Python.
+## 📂 Dataset
 
+The dataset contains information about 100 books, including:
 
+- Title
+- Price
+- Availability
+- Rating
 
-\## Technologies Used
+## 🔍 EDA Performed
 
-\- Python
+The following analyses were performed:
 
-\- Requests
+- Dataset structure and shape analysis
+- Column and data type identification
+- Missing value detection
+- Price analysis
+- Minimum, maximum, and average price calculation
+- Book rating distribution analysis
+- Availability analysis
+- Identification of the most common rating
+- Identification of the top 5 most expensive books
 
-\- BeautifulSoup
+## 📊 Key Insights
 
-\- Pandas
+- The dataset contains **100 books** and **4 columns**.
+- There are **no missing values** in the dataset.
+- The average book price is approximately **£34.56**.
+- The minimum price is approximately **£10.16**.
+- The maximum price is approximately **£58.11**.
+- The most common rating is **One**.
+- All books in the dataset are currently listed as **In stock**.
 
-\- Matplotlib
+## 🛠️ Tools and Technologies
 
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook / Python
 
+## 📁 Project Files
 
-\## Project Steps
+- `eda.py` – Python script used for Exploratory Data Analysis
+- `cleaned_books_dataset.csv` – Cleaned dataset
+- `price_distribution.png` – Price distribution visualization
+- `rating_distribution.png` – Rating distribution visualization
 
+## ✅ Conclusion
 
-
-\### 1. Web Scraping
-
-Scraped book information from a website using Python and BeautifulSoup.
-
-
-
-Collected data includes:
-
-\- Book Title
-
-\- Price
-
-\- Availability
-
-\- Rating
-
-
-
-A total of 100 books were collected.
-
-
-
-\### 2. Data Cleaning
-
-The scraped data was cleaned using Pandas.
-
-
-
-The following tasks were performed:
-
-\- Removed unwanted symbols from prices
-
-\- Converted prices to numeric values
-
-\- Prepared the dataset for analysis
-
-
-
-\### 3. Data Analysis
-
-The cleaned dataset was analyzed to find:
-
-\- Average book price
-
-\- Minimum book price
-
-\- Maximum book price
-
-\- Rating distribution
-
-\- Most common rating
-
-\- Top 5 most expensive books
-
-
-
-\### 4. Data Visualization
-
-Charts were created using Matplotlib:
-
-\- Price Distribution
-
-\- Rating Distribution
-
-
-
-\## Project Files
-
-\- `scraper.py` - Web scraping script
-
-\- `books\_dataset.csv` - Raw scraped dataset
-
-\- `clean\_data.py` - Data cleaning script
-
-\- `cleaned\_books\_dataset.csv` - Cleaned dataset
-
-\- `analysis.py` - Data analysis script
-
-\- `visualize.py` - Data visualization script
-
-\- `price\_distribution.png` - Price distribution chart
-
-\- `rating\_distribution.png` - Rating distribution chart
-
-
-
-\## Conclusion
-
-This project demonstrates the complete data analysis workflow, from collecting data through web scraping to cleaning, analyzing, and visualizing the results.
-
+The Exploratory Data Analysis helped identify the structure, quality, price patterns, rating distribution, and availability of books in the dataset. The insights obtained can be useful for further analysis and visualization.
